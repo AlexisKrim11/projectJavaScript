@@ -7,6 +7,28 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+header{
+  background-color: rgb(36, 47, 65);
+}
+.dropdown-menu{
+  background-color: rgb(36, 47, 65)
+}
+
+.letraMenu{
+  color: white;
+}
+.letraMenu:hover{
+  border: white;
+  background-color: rgb(36, 47, 65);
+  color: orange;
+}
+
+
+.dropdown-item:hover{
+  border: white;
+  background-color: rgb(36, 47, 65);
+  color: orange;
+}
 
 
 /**productos**/
@@ -22,9 +44,29 @@ body {
   margin: 15px;
 }
 
+
+.btn {
+  background-color: rgb(36, 47, 65);
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  margin: 0px 20px 10px 20px;
+}
+.btn:hover {
+  background-color: rgb(255, 118, 18);
+  border: 2px solid white;
+  color: white;
+}
+
+
+.card-text {
+  font-size: small;
+  color: green;
+  
+}
 /*footer*/
 footer {
-  background-color: black;
+  background-image: url(./assets/footer.img);
   color: white;
   font-family: "Poppins 300", sans-serif;
 
@@ -46,8 +88,8 @@ footer {
   align-items: center;
 }
 
-div ul li {
-  text-decoration: none;
+div ul li{
+  color: white;
   list-style-type: none;
   font-family: "Poppins 100", sans-serif;
 }
@@ -69,4 +111,9 @@ div ul li {
 
 .footer-orange:hover {
   color: orange;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
