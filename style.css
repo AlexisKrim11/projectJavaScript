@@ -1,35 +1,38 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Poppins", sans-serif;
 }
 
-header{
+header {
+  background-color: rgb(36, 47, 65);
+  align-items: center;
+}
+.dropdown-menu {
   background-color: rgb(36, 47, 65);
 }
-.dropdown-menu{
-  background-color: rgb(36, 47, 65)
-}
 
-.letraMenu{
+.letraMenu {
   color: white;
 }
-.letraMenu:hover{
+.letraMenu:hover {
   border: white;
   background-color: rgb(36, 47, 65);
   color: orange;
 }
 
-
-.dropdown-item:hover{
+.dropdown-item:hover {
   border: white;
   background-color: rgb(36, 47, 65);
   color: orange;
 }
 
+.container-fluid {
+  display: flex;
+}
 
 /**productos**/
 .productos {
@@ -44,7 +47,6 @@ header{
   margin: 15px;
 }
 
-
 .btn {
   background-color: rgb(36, 47, 65);
   color: white;
@@ -58,11 +60,9 @@ header{
   color: white;
 }
 
-
 .card-text {
   font-size: small;
   color: green;
-  
 }
 /*footer*/
 footer {
@@ -88,7 +88,7 @@ footer {
   align-items: center;
 }
 
-div ul li{
+div ul li {
   color: white;
   list-style-type: none;
   font-family: "Poppins 100", sans-serif;
@@ -116,4 +116,57 @@ div ul li{
 a {
   color: white;
   text-decoration: none;
+}
+
+.white-background {
+  filter: brightness(0) invert(1) sepia(1) saturate(10000%) hue-rotate(0deg);
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.imgcart {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.productsCart {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.productCartItem {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.deleteButton {
+  background-color: rgb(36, 47, 65);
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.deleteButton:hover {
+  background-color: red;
+  border: 2px solid black;
+  color: white;
+}
+
+span {
+  font-weight: 700;
+  color: rgb(42, 122, 42);
 }
